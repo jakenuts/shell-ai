@@ -14,13 +14,13 @@ builds:
 
 brews:
   - name: shell-ai
-    homepage: "https://github.com/ibigio/shell-ai"
+    homepage: "https://github.com/jakenuts/shell-ai"
     tap:
-      owner: ibigio
+      owner: jakenuts
       name: homebrew-tap
     commit_author:
-      name: ibigio
-      email: ilanbigio@gmail.com
+      name: jakenuts
+      email: james@gbase.com
     install: |
       bin.install "shell-ai"
       bin.install_symlink "shell-ai" => "q"
